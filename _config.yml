@@ -9,7 +9,7 @@ kramdown:
 author: 
   name: Aurthur
   email: aurthurxlc@gmail.com
-  link: http://blog.gitos.cn
+  #link: http://blog.gitos.cn
   github: http://github.com/Aurthur-LK
 
 # 站点信息
