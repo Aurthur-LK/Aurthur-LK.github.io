@@ -1,6 +1,6 @@
 ### 我的博客
 
-地址：[http://yansu.org](http://yansu.org)
+地址：[http://blog.gitos.cn](http://blog.gitos.cn)
 
 ### 安装说明
 
