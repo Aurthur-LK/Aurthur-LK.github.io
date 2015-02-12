@@ -3,19 +3,19 @@ markdown: kramdown
 pygments: true
 
 kramdown:
-  input: GFM
+input: GFM
 
 # 作者信息
 author: 
-  name: Aurthur
-  email: aurthurxlc@gmail.com
-  #link: http://blog.gitos.cn
-  github: http://github.com/Aurthur-LK
+name: Aurthur
+email: aurthurxlc@gmail.com
+link: http://blog.gitos.cn
+github: http://github.com/Aurthur-LK
 
 # 站点信息
 title: Aurthur's Blog 
 description: Aurthur's Blog
-url: http://Aurthur-LK.github.io
+url: http://blog.gitos.cn
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
