@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Syntax of MarkDown
+title: Syntax of MarkDown-zh
 category: Help
 tags: personal
 description: Syntax of MarkDown
