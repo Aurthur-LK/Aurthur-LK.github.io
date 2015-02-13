@@ -2,11 +2,11 @@
 layout: post
 title: Syntax of MarkDown-zh
 category: Help
-tags: personal
-description: Syntax of MarkDown
+tags: help
+description: Syntax of MarkDown-zh
 ---
 
-Markdown 语法说明 (简体中文版)
+Markdown 语法说明 (中文版)
 ================
 
 *   [概述](#overview)
@@ -28,8 +28,6 @@ Markdown 语法说明 (简体中文版)
 *   [其它](#misc)
     *   [反斜杠](#backslash)
     *   [自动链接](#autolink)
-*   [感谢](#acknowledgement)
-*	[Markdown 免费编辑器](#editor)
 
 * * *
 
