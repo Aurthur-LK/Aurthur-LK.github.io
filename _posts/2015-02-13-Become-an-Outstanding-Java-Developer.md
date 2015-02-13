@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Become an Outstanding Java Developer
-category: Technical Artices
+category: Technical
 tags: Java
 description: Become an Outstanding Java Developer
 ---
