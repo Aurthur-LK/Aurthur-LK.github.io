@@ -14,7 +14,8 @@
   font-style: normal; }
 
 .fontello, .post__toc-li:before {
-  font-family: "fontello";
+  /*font-family: "fontello";*/
+  font-family: arial;
   speak: none;
   font-variant: normal;
   text-transform: none;
