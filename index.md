@@ -5,7 +5,7 @@ title: Aurthur' Blog
 
 ## Welcome to My Blog
 
-More and more people are writing blogs on the Internet , The blog can express our experience and feelings , we should take seriously.
+Welcome to Aurthur's Blog!
 
 ## About Aurthur's Blog
 
