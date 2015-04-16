@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Resources Collection for Android Developer
+title: Resources Collection for Android
 category: Technical
 tags: Android
 description: Resources Collection for Android Developer
