@@ -2,7 +2,7 @@
 layout: post
 title: Some Projects of Aurthur
 category: Aurthur
-tags: personal
+tags: Project
 description: Some Projects of Aurthur
 ---
 ##Some projects
