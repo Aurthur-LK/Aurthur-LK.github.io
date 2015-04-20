@@ -15,7 +15,7 @@ description: Some Domestic Mirrors
 
 ####[北京交通大学](http://mirror.bjtu.edu.cn/cn/)
 
-####[北京化工大学镜像站](http://ubuntu.buct6.edu.cn/zh-CN/)
+####[北京化工大学镜像站](http://ubuntu.buct.edu.cn/zh-CN/)
 
 ###华东南地区
 
