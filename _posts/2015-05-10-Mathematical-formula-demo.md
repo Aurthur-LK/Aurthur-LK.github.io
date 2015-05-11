@@ -73,11 +73,7 @@ $$
 
 矩阵
 $$
-\begin{matrix}
-1 &amp; x &amp; x^2 \\
-1 &amp; y &amp; y^2 \\
-1 &amp; z &amp; z^2 \\
-\end{matrix}
+pmatrix:$\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$ bmatrix:$\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$ Bmatrix:$\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$ vmatrix:$\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$ Vmatrix:$\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$ 
 $$
 
 等号对其
