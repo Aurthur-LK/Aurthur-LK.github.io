@@ -71,12 +71,7 @@ $$
 \end{array}
 $$
 
-矩阵
-$$
-pmatrix:$\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$ bmatrix:$\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$ Bmatrix:$\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$ vmatrix:$\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$ Vmatrix:$\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$ 
-$$
-
-等号对其
+等号对齐
 $$
 \begin{align}
 \sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
