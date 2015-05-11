@@ -15,7 +15,7 @@ description: 数学公式Web展现的例子
 
 \mbox{text} 标签的使用 $$\mbox{对任意的$x>0$}, \mbox{有 }f(x)>0. $$
 
-画表格线
+画线
 $$
 \begin{array}{c|lcr}
 n & \text{Left} & \text{Center} & \text{Right} \\
@@ -73,8 +73,9 @@ $$
 \end{matrix}
 $$
 
-其他
-$$\begin{align}
+等号对其
+$$
+\begin{align}
 \sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
  & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
  & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
@@ -82,6 +83,7 @@ $$\begin{align}
  & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
 \end{align}$$
 
+分数表示方式比较
 $$
 \begin{array}{cc}
 \mathrm{Bad} & \mathrm{Better} \\
@@ -91,6 +93,7 @@ e^{i\frac{\pi}2} \quad e^{\frac{i\pi}2}& e^{i\pi/2} \\
 \end{array}
 $$
 
+多重积分现实方式比较
 $$
 \begin{array}{cc}
 \mathrm{Bad} & \mathrm{Better} \\
@@ -100,17 +103,14 @@ $$
 \end{array}
 $$
 
+等式
 $$
 x = a_0 + \cfrac{1^2}{a_1
           + \cfrac{2^2}{a_2
-          + \cfrac{3^2}{a_3 + \cfrac{4^4}{a_4 + \cdots}}}} \tag{\cfrac}
-$$
-$$
-x = a_0 + \frac{1^2}{a_1
-          + \frac{2^2}{a_2
-          + \frac{3^2}{a_3 + \frac{4^4}{a_4 + \cdots}}}} \tag{\frac}
+          + \cfrac{3^2}{a_3 + \cfrac{4^4}{a_4 + \cdots}}}}
 $$
 
+方程组
 $$
 \left\{ 
 \begin{array}{c}
@@ -121,6 +121,7 @@ a_3x+b_3y+c_3z=d_3
 \right. 
 $$
 
+Latex插入颜色
 $$
 \begin{array}{|rc|}
 \hline
