@@ -5,7 +5,8 @@ category: Technical
 tags: Project
 description: 数学公式Web展现的例子
 ---
-如果本页面的数学公式未显示出来，请刷新哦，这是因为我的博客静态缓存造成的。
+如果本页面的数学公式未显示出来，请刷新，这是因为我的博客生成了静态缓存
+
 方程组 
 $$
 \begin{aligned} \dot{x} & = \sigma(y-x) \\ \dot{y} & = \rho x - y - xz \\ \dot{z} & = -\beta z + xy \end{aligned}
