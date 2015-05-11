@@ -26,11 +26,120 @@ n & \text{Left} & \text{Center} & \text{Right} \\
 \end{array}
 $$
 
-积分表示 
 $$
-\[ \int_0^{+\infty} x^n e^{-x} \,dx = n!.\] \[ \int \cos \theta \,d\theta = \sin \theta.\] \[ \int_{x^2 + y^2 \leq R^2} f(x,y)\,dx\,dy = \int_{\theta=0}^{2\pi} \int_{r=0}^R f(r\cos\theta,r\sin\theta) r\,dr\,d\theta.\] \[ \int_0^R \frac{2x\,dx}{1+x^2} = \log(1+R^2).\] \[ \int \!\!\! \int_D f(x,y)\,dx\,dy.\] \[ \int \int_D f(x,y)\,dx\,dy.\]
+% outer vertical array of arrays
+\begin{array}{c}
+% inner horizontal array of arrays
+\begin{array}{cc}
+% inner array of minimum values
+\begin{array}{c|cccc}
+\text{min} & 0 & 1 & 2 & 3\\
+\hline
+0 & 0 & 0 & 0 & 0\\
+1 & 0 & 1 & 1 & 1\\
+2 & 0 & 1 & 2 & 2\\
+3 & 0 & 1 & 2 & 3
+\end{array}
+&
+% inner array of maximum values
+\begin{array}{c|cccc}
+\text{max}&0&1&2&3\\
+\hline
+0 & 0 & 1 & 2 & 3\\
+1 & 1 & 1 & 2 & 3\\
+2 & 2 & 2 & 2 & 3\\
+3 & 3 & 3 & 3 & 3
+\end{array}
+\end{array}
+\\
+% inner array of delta values
+\begin{array}{c|cccc}
+\Delta&0&1&2&3\\
+\hline
+0 & 0 & 1 & 2 & 3\\
+1 & 1 & 0 & 1 & 2\\
+2 & 2 & 1 & 0 & 1\\
+3 & 3 & 2 & 1 & 0
+\end{array}
+\end{array}
 $$
-最后来一段连贯的
+
+矩阵
 $$
-One would typeset this in LaTeX by typing In non-relativistic wave mechanics, the wave function $\psi(\mathbf{r},t)$ of a particle satisfies the \emph{Schr\"{o}dinger Wave Equation} \[ i\hbar\frac{\partial \psi}{\partial t} = \frac{-\hbar^2}{2m} \left( \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2} \right) \psi + V \psi.\] It is customary to normalize the wave equation by demanding that \[ \int \!\!\! \int \!\!\! \int_{\textbf{R}^3} \left| \psi(\mathbf{r},0) \right|^2\,dx\,dy\,dz = 1.\] A simple calculation using the Schr\"{o}dinger wave equation shows that \[ \frac{d}{dt} \int \!\!\! \int \!\!\! \int_{\textbf{R}^3} \left| \psi(\mathbf{r},t) \right|^2\,dx\,dy\,dz = 0,\] and hence \[ \int \!\!\! \int \!\!\! \int_{\textbf{R}^3} \left| \psi(\mathbf{r},t) \right|^2\,dx\,dy\,dz = 1\] for all times~$t$. If we normalize the wave function in this way then, for any (measurable) subset~$V$ of $\textbf{R}^3$ and time~$t$, \[ \int \!\!\! \int \!\!\! \int_V \left| \psi(\mathbf{r},t) \right|^2\,dx\,dy\,dz\] represents the probability that the particle is to be found within the region~$V$ at time~$t$.
+\begin{matrix}
+1 &amp; x &amp; x^2 \\
+1 &amp; y &amp; y^2 \\
+1 &amp; z &amp; z^2 \\
+\end{matrix}
+$$
+
+其他
+$$\begin{align}
+\sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
+ & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
+ & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
+ & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\ 
+ & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
+\end{align}$$
+
+$$
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+e^{i\frac{\pi}2} \quad e^{\frac{i\pi}2}& e^{i\pi/2} \\
+\int_{-\frac\pi2}^\frac\pi2 \sin x\,dx & \int_{-\pi/2}^{\pi/2}\sin x\,dx \\
+\end{array}
+$$
+
+$$
+\begin{array}{cc}
+\mathrm{Bad} & \mathrm{Better} \\
+\hline \\
+\int\int_S f(x)\,dy\,dx & \iint_S f(x)\,dy\,dx \\
+\int\int\int_V f(x)\,dz\,dy\,dx & \iiint_V f(x)\,dz\,dy\,dx
+\end{array}
+$$
+
+$$
+x = a_0 + \cfrac{1^2}{a_1
+          + \cfrac{2^2}{a_2
+          + \cfrac{3^2}{a_3 + \cfrac{4^4}{a_4 + \cdots}}}} \tag{\cfrac}
+$$
+$$
+x = a_0 + \frac{1^2}{a_1
+          + \frac{2^2}{a_2
+          + \frac{3^2}{a_3 + \frac{4^4}{a_4 + \cdots}}}} \tag{\frac}
+$$
+
+$$
+\left\{ 
+\begin{array}{c}
+a_1x+b_1y+c_1z=d_1 \\ 
+a_2x+b_2y+c_2z=d_2 \\ 
+a_3x+b_3y+c_3z=d_3
+\end{array}
+\right. 
+
+$$
+\begin{array}{|rc|}
+\hline
+\verb+\color{black}{text}+ & \color{black}{text} \\
+\verb+\color{gray}{text}+ & \color{gray}{text} \\
+\verb+\color{silver}{text}+ & \color{silver}{text} \\
+\verb+\color{white}{text}+ & \color{white}{text} \\
+\hline
+\verb+\color{maroon}{text}+ & \color{maroon}{text} \\
+\verb+\color{red}{text}+ & \color{red}{text} \\
+\verb+\color{yellow}{text}+ & \color{yellow}{text} \\
+\verb+\color{lime}{text}+ & \color{lime}{text} \\
+\verb+\color{olive}{text}+ & \color{olive}{text} \\
+\verb+\color{green}{text}+ & \color{green}{text} \\
+\verb+\color{teal}{text}+ & \color{teal}{text} \\
+\verb+\color{aqua}{text}+ & \color{aqua}{text} \\
+\verb+\color{blue}{text}+ & \color{blue}{text} \\
+\verb+\color{navy}{text}+ & \color{navy}{text} \\
+\verb+\color{purple}{text}+ & \color{purple}{text} \\ 
+\verb+\color{fuchsia}{text}+ & \color{magenta}{text} \\
+\hline
+\end{array}
 $$
