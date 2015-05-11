@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 完美展现显示数学公式探讨
+title: 前端完美展现显示数学公式探讨
 category: Technical
 tags: Project
-description: 完美展现显示数学公式的一些方案的探讨
+description: 前端完美展现显示数学公式的一些方案的探讨
 ---
 ##背景
 最近接手学校的一个高数教学组习题库的项目，经过与团队和老师多次探讨后，总结出几个项目实现上的几个难点，如下：
