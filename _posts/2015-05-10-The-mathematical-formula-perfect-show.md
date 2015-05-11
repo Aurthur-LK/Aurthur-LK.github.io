@@ -48,43 +48,41 @@ MathML是受XML的启发在万维网联盟数学工作组的具体组织下产�
 
 以下为二次函数求根公式的MathML代码demo
 
-<code xml>
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" 
-"http://www.w3.org/Math/DTD/mathml2/mathml2.dtd">
-<math xmlns="http://www.w3.org/1998/Math/MathML">
-        <mi>x</mi>
-        <mo>=</mo>
-        <mfrac>
-                <mrow>
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" 
+        "http://www.w3.org/Math/DTD/mathml2/mathml2.dtd">
+        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                <mi>x</mi>
+                <mo>=</mo>
+                <mfrac>
                         <mrow>
-                                <mo>-</mo>
-                                <mi>b</mi>
-                        </mrow>
-                        <mo>±</mo>
-                        <msqrt>
-                                <msup>
-                                        <mi>b</mi>
-                                        <mn>2</mn>
-                                </msup>
-                                <mo>-</mo>
                                 <mrow>
-                                        <mn>4</mn>
-                                        <mo>⁢</mo>
-                                        <mi>a</mi>
-                                        <mo>⁢</mo>
-                                        <mi>c</mi>
+                                        <mo>-</mo>
+                                        <mi>b</mi>
                                 </mrow>
-                        </msqrt>
-                </mrow>
-                <mrow>
-                        <mn>2</mn>
-                        <mo>⁢</mo>
-                        <mi>a</mi>
-                </mrow>
-        </mfrac>
-</math>
-</code>
+                                <mo>±</mo>
+                                <msqrt>
+                                        <msup>
+                                                <mi>b</mi>
+                                                <mn>2</mn>
+                                        </msup>
+                                        <mo>-</mo>
+                                        <mrow>
+                                                <mn>4</mn>
+                                                <mo>⁢</mo>
+                                                <mi>a</mi>
+                                                <mo>⁢</mo>
+                                                <mi>c</mi>
+                                        </mrow>
+                                </msqrt>
+                        </mrow>
+                        <mrow>
+                                <mn>2</mn>
+                                <mo>⁢</mo>
+                                <mi>a</mi>
+                        </mrow>
+                </mfrac>
+        </math>
 
 可以看出，代码复杂度很高，一个简单的公式需要极多的冗余标记表达。
 
