@@ -46,6 +46,7 @@ description: 完美展现显示数学公式的一些方案的探讨
 MathML是受XML的启发在万维网联盟数学工作组的具体组织下产生的，作为XML定义的一种应用,它用标记的形式来表示数学表达式。用MathML形式 来描述数学表达式，不仅可以明确地表达数学内容,而且可以在Web的其它应用程序中实现再利用和转换。MathML 标记的递归性和树状结构使得它在计算机程序的实现上更方便、简单。MathML 使用文本的形式来描述数学表达式的树形结构,克服了传统的Web中使用图片表达数学公式的缺点。
 
 以下为二次函数求根公式的MathML代码demo
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" 
@@ -83,6 +84,7 @@ MathML是受XML的启发在万维网联盟数学工作组的具体组织下产�
         </mfrac>
 </math>
 ```
+
 可以看出，代码复杂度很高，一个简单的公式需要极多的冗余标记表达。
 
 由于数学符号和公式的结构复杂且符号与符号之间存在多种逻辑关系，MathML的格式十分繁琐。因此，大多数人都不会去手写MathML，而是利用其它的工具来编写，其中包括Tex到MathML的转换器。在现在几个主要的网页浏览器中，最新版的Mozilla、Mozilla Firefox和Netscape Navigator都已经对MathML提供直接的支持，但Chrome却又停止支持，原因是Google出于安全性的考虑，但是Chrome和其它一些不支持MathML的浏览器，仍可以通过适当的HTML+CSS代码将MathML显示出来。微软的IE在安装了MathPlayer插件后也可以识别MathML。此外，MathML还得到了一些办公软件的支持，如openoffice .org和Microsoft Office。
