@@ -6,7 +6,7 @@ tags: Html
 description: Generating HTML using HTML methods
 ---
 Did you know that Laravel comes with a great amount of helpers to generate HTML in your Blade templates, like UL and OL lists, obfuscating email links, links to javascript and style assets? Check out the code below to see the HTML helpers in action
-<pre><code>
+
     # Generating a link to external Javascript
     {{ HTML::script('js/app.min.js'); }}
 
@@ -43,8 +43,8 @@ Did you know that Laravel comes with a great amount of helpers to generate HTML 
     // Generates :
     <ol>
         <li>list item</li>
-      <li>list item</li>
-      <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
     </ol>
 
     # Generating HTML unordered list
@@ -63,12 +63,11 @@ Did you know that Laravel comes with a great amount of helpers to generate HTML 
     // Generates :
     <ul>
         <li>list item</li>
-      <li>list item
-        <ul>
-          <li>list item</li>
-          <li>list item</li>
-        </ul>
-      </li>
-      <li>list item</li>
+            <li>list item
+                <ul>
+                  <li>list item</li>
+                  <li>list item</li>
+                </ul>
+            </li>
+        <li>list item</li>
     </ul>
-</code></pre>
