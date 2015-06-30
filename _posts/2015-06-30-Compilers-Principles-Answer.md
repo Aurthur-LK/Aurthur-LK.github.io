@@ -64,4 +64,4 @@ description: Compilers Principles Practice's Answer
 
 ####[5.1 节答案](https://github.com/Aurthur-LK/dragon-book-practice-answer/blob/master/ch05/5.1/5.1.md)
 
-####[5.5 节答案](https://github.com/Aurthur-LK/dragon-book-practice-answer/blob/master/ch05/5.5/5.5.md)
+####[5.2 节答案](https://github.com/Aurthur-LK/dragon-book-practice-answer/blob/master/ch05/5.2/5.2.md)
