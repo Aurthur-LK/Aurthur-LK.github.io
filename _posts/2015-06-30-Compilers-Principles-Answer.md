@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Compilers Principles Practice's Answer(Second Edition)
+title: Compilers Principles Practice's Answer
 category: Technical
 tags: Html
 description: Compilers Principles Practice's Answer
 ---
-```xml
-本资料如有错误，欢迎直接指正，期待你的 pull request。
-```
+
+##本资料如有错误，欢迎直接指正，期待你的 pull request。
+
 
 # 2.2 节的练习
 
@@ -19,7 +19,7 @@ S -> S S + | S S * | a
 
 1. 试说明如何使用该文法生成串 aa+a*
 2. 试为这个串构造一颗语法分析树
-3. ⧗ 该文法生成的语言是什么？试证明
+3. 该文法生成的语言是什么？试证明
 
 #### 解答
 
@@ -64,6 +64,7 @@ S -> S S + | S S * | a
 5. 有
 
     ![二义语法树](https://raw.github.com/fool2fish/dragon-book-practice-answer/master/ch02/2.2/assets/2.2.3-5.png)
+
 ### 2.2.4
 
 为下面的各个语言构建无二义性的上下文无关文法。证明你的文法都是正确的。
@@ -84,6 +85,7 @@ S -> S S + | S S * | a
     term -> term * factor | term / factor | factor
 
     factor -> id | num | (expr)
+
 5.  **注：**单目加减运算的优先级最高
 
     expr -> expr + term | expr - term | term
@@ -166,4 +168,3 @@ S -> S S + | S S * | a
     digit -> smallDigit | I V | V smallDigit | I X
 
     smallDigit -> I | II | III  | ε
-    
