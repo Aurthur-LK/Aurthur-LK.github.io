@@ -34,7 +34,7 @@ Since Electron uses Chromium for displaying web pages, Chromium's multi-process 
 
 In normal browsers, web pages usually run in a sandboxed environment and are not allowed access to native resources. Electron users, however, have the power to use io.js APIs in web pages allowing lower level operating system interactions.
 
-** Differences between main process and renderer process **
+**Differences between main process and renderer process**
 
 The main process creates web pages by creating BrowserWindow instances. Each BrowserWindow instance runs the web page in its own renderer process. When a BrowserWindow instance is destroyed, the corresponding renderer process is also terminated.
 
